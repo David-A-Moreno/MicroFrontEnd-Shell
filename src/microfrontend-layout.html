@@ -19,9 +19,14 @@
 
   <main>
     <route default>
-      <application name="@bazaaryhomepage/homepage"></application>
-      <application name="@single-spa/welcome"></application>
-      
+      <application name="@bazaary/login"></application>
+    </route>
+    <route path="cart">
+      <application name="@bazaary/cart"></application>
+    </route>
+    <route path="home">
+      <application name="@bazaary/navbar"></application>
+      <application name="@bazaary/home"></application>
     </route>
   </main>
 </single-spa-router>
